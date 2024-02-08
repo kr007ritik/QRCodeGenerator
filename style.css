@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    text-align: center;
+    background-color: #000;
+}
+
+.container{
+    max-width:300px;
+    margin: auto;
+}
+
+h1{
+    color: #fff;
+    margin: 5% 0 40px;
+    text-decoration: 1px underline #7e2cf9;
+}
+
+label{
+    color: #fff;
+    float: left;
+}
+
+.container input{
+    width:100%;
+    font-size: 16px;
+    padding: 10px;
+    margin:10px 0;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.container .generateQRCBtn{
+    font-size: 15px;
+    padding: 10px;
+    background-color: #7e2cf9;;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .QRcode {
+    background-color: #fff;
+    max-width:220px;
+    max-height:220px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.container p{
+    display: none;
+    color: red;
+}
+
+
+.container .QRcode img{
+    margin: 10px;
+}
+
+.container .downAndClearBtn{
+    display: none;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.container .downloadQRC,.clearBtn{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    background-color: green;;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .downloadQRC:disabled{
+    cursor: none;
+    opacity: 0.5;
+}
+
+.container .clearBtn{
+    background-color: #870808;
+    color: #fff;
+}
+
